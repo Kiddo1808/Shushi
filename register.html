@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" href="assets/img/logo (2).png" type="image/x-icon" />
+
+<head>
+  <title>Đăng ký Ukki</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="./assets/css/register.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="./assets/js/login.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row px-3">
+      <div class="col-lg-10 col-xl-9 card flex-row mx-auto px-0">
+        <div class="img-left d-none d-md-flex"></div>
+
+        <div class="card-body">
+          <div class="row-cols-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" onclick="comeBack()"
+              class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+            </svg>
+          </div>
+          <h3 class="title text-center mt-4">
+            Đăng ký tài khoản
+          </h3>
+          <form class="form-box ">
+            <div class="form-input">
+              <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-person" viewBox="0 0 16 16">
+                  <path
+                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                </svg></i></span>
+              <input type="text" name="" placeholder="Tên đăng nhập" required>
+            </div>
+            <div class="form-input">
+              <span><i class="fa fa-envelope-o"></i></span>
+              <input type="text" name="" placeholder="Email hoặc số điện thoại" required>
+            </div>
+            <div class="form-input">
+              <span><i class="fa fa-key"></i></span>
+              <input type="password" name="" placeholder="Mật khẩu" id="password" required>
+            </div>
+            <div class="form-input">
+              <span><i class="fa fa-key"></i></span>
+              <input type="password" name="" placeholder="Nhập lại mật khẩu" id="repassword" required>
+            </div>
+            <div class="mb-3">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="cb1" name="" required>
+                <label class="custom-control-label" for="cb1" aria-required="true"
+                  style="font-family: 'Inter', sans-serif ; color: hsl(19, 64%, 58%);">Tôi đồng ý với các điều khoản của
+                  Sushi</label>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <button type="submit" class="btn btn-block">
+                Đăng ký
+              </button>
+            </div>
+
+            <div class="text-center mb-3" style="font-family: 'Inter', sans-serif ;">
+              Hoặc đăng ký với
+            </div>
+
+            <div class="row">
+              <div class="col-6">
+                <a href="https://www.facebook.com/" class="btn btn-block btn-social btn-facebook">
+                  Facebook
+                </a>
+              </div>
+
+              <div class="col-6">
+                <a href="https://www.google.com/" class="btn btn-block btn-social btn-google">
+                  Google
+                </a>
+              </div>
+
+            </div>
+
+            <hr class="my-4">
+
+            <div class="text-center mb-2" style="font-family: 'Inter', sans-serif ;">
+              Bạn đã có tài khoản?
+              <a href="login.html" class="login-link">
+                Đăng nhập tại đây!
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="login.js"></script>
+
+</body>
+
+</html>

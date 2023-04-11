@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/img/logo (2).png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+  <title>Ukki</title>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="assets/img/logo (2).png" alt="logo image" />
+        Ukki
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Trang chủ</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Về chúng tôi</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#popular" class="nav__link">Phổ biến</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#recently" class="nav__link">Gần đây</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Dịch vụ</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">Blog</a>
+          </li>
+          <!-- đang nhạp đang ki -->
+          <li class="nav__item">
+            <a href="/Sushi/cart/cart.html" class="button-login"> Menu </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="/Sushi/login.html" class="button-login"> Đăng nhập </a>
+          </li>
+
+          <div class="nav__buttons">
+            <i id="theme-button"></i>
+
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+              <i class="ri-close-line"></i>
+            </div>
+
+            <img src="assets/img/japanese-icon-sushi-3d-illustration.png" alt="nav image" class="nav__img-1" />
+            <img src="assets/img/sushi-3d-illustration-icon.png" alt="nav image" class="nav__img-2" />
+          </div>
+
+
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <img src="assets/img/zyro-image (4).png" alt="home image" class="home__img" />
+        <div class="home__data">
+          <h1 class="home__title">
+            Sushi ngon
+
+            <div>
+              <img src="assets/img/sushi-title.png" alt="home image" />
+              khó cưỡng
+            </div>
+          </h1>
+
+          <p class="home__description">
+            Một ngày bận rộn, công việc chất đống không có thời gian để đến
+            nhà hàng thưởng thức sushi? Đừng lo vì đã có Ukki với dịch vụ giao
+            hàng tiện lợi và công nghệ đóng gói cao cấp, giúp lưu giữ độ tươi
+            ngon của sushi trong suốt quãng đường!
+          </p>
+          <a href="cart/cart.html" class="button">
+            Đặt hàng ngay <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+      </div>
+
+      <img src="assets/img/sushi-leaf-2.png" alt="home image" class="home__leaf-1" />
+      <img src="assets/img/sushi-leaf-2.png" alt="home image" class="home__leaf-2" />
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__data">
+          <span class="section__subtitle">Về chúng tôi</span>
+          <h2 class="section__title about__title">
+            <div>
+              Cùng Ukki khám phá
+              <img src="assets/img/sushi.png" alt="about image" />
+            </div>
+            ẩm thực Nhật Bản
+          </h2>
+
+          <p class="about__description">
+            Nếu bạn đang tìm kiếm một hương vị ẩm thực độc đáo, một sự kết hợp
+            hoàn hảo giữa ẩm thực Nhật Bản và những biến tấu đầy nghệ thuật
+            thì thực đơn tại Ukki sẽ là một trải nghiệm đáng giá. Tại Ukki,
+            chúng tôi cung cấp những món ăn Nhật Bản truyền thống được thêm
+            thắt những giá trị ẩm thực mới, mang đến sự bùng nổ về hương vị
+            kèm theo sự mới lạ khi thưởng thức.
+          </p>
+        </div>
+
+        <img src="assets/img/zyro-image (3).png" alt="about image" class="about__img" />
+      </div>
+      <img src="assets/img/sushi-leaf-2.png" alt="about image" class="about__leaf" />
+    </section>
+
+    <section class="popular section" id="popular">
+      <span class="section__subtitle">Món ăn ngon nhất</span>
+      <h2 class="section__title">Thực đơn phổ biến</h2>
+
+      <div class="popular__container container grid">
+        <article class="popular__card">
+          <img src="assets/img/mixed-sushi-set-japanese-food.png" alt="popular image" class="popular__img" />
+
+          <h3 class="popular__name">
+            Set Sushi <br />
+            Đầy Đủ
+          </h3>
+          <span class="popular__description">16 Miếng Sushi</span>
+
+          <span class="popular__price">220000</span>
+
+          <a href="cart/cart.html">
+            <button class="popular__button">
+              <i class="ri-handbag-line"></i>
+            </button>
+          </a>
+        </article>
+        <article class="popular__card">
+          <img src="assets/img/zyro-image (2).png" alt="popular image" class="popular__img" />
+
+          <h3 class="popular__name">
+            Buffet <br />
+            Sushi
+          </h3>
+          <span class="popular__description">24 Miếng Sushi</span>
+
+          <span class="popular__price">310000</span>
+          <a href="cart/cart.html">
+            <button class="popular__button">
+              <i class="ri-handbag-line"></i>
+            </button>
+          </a>
+        </article>
+        <article class="popular__card">
+          <img src="assets/img/zyro-image.png" alt="popular image" class="popular__img" />
+
+          <h3 class="popular__name">
+            Set Cơm Cuộn <br />
+            Cá Hồi
+          </h3>
+          <span class="popular__description">16 Cuốn Cá Hồi</span>
+
+          <span class="popular__price">230000</span>
+          <a href="cart/cart.html">
+            <button class="popular__button">
+              <i class="ri-handbag-line"></i>
+            </button>
+          </a>
+        </article>
+      </div>
+    </section>
+    <!--===========RECENTLY=============-->
+    <section class="recently section" id="recently">
+      <div class="recently__container container grid">
+        <div class="recently__data">
+          <span class="section__subtitle">Mới thêm gần đây</span>
+          <h2 class="section__title">
+            Cơm Cuộn <br />
+            Cá Hồi Na Uy
+          </h2>
+
+          <p class="recently__description">
+            Cuốn cá hồi Na Uy nhân bơ kèm trứng cá trích
+            <br />
+            thơm ngon, tươi mát đã chính thức lên sàn. <br />
+            Chần chờ gì mà không thử ngay!
+          </p>
+          <br>
+          <a href="cart/cart.html" class="button">
+            Đặt hàng ngay<i class="ri-arrow-right-line"></i>
+          </a>
+
+          <img src="assets/img/spinach-leaf.png" alt="recently image" class="recently__data-img" />
+        </div>
+
+        <img src="assets/img/closeup-shot-delicious-sushi-roll-with-avocado.png" alt="recently image"
+          class="recently__img" />
+      </div>
+
+      <img src="assets/img/sushi-3d-illustration-icon.png" alt="recently image" class="recently__leaf-1" />
+      <img src="assets/img/sushi-3d-illustration-icon.png" alt="recently image" class="recently__leaf-2" />
+    </section>
+
+    <!--==========SERVICES=========-->
+    <section class="services section" id="services">
+      <h2 class="section__title">Dịch vụ</h2>
+      <span class="section__subtitle">Chúng tôi cung cấp</span>
+
+      <div class="services__container container grid">
+        <!--==========SERVICES 1==========-->
+        <div class="services__content">
+          <div>
+            <i class="ri-ancient-gate-line services__icon"></i>
+            <h3 class="services__title">
+              Ẩm Thực <br />
+              Nhật Bản
+            </h3>
+          </div>
+
+          <span class="button--flex button--small button--link services__button">
+            Xem thêm
+            <i class="ri-arrow-right-line button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">Ẩm thực Nhật Bản</h4>
+              <i class="ri-close-line services__modal-close"></i>
+
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="ri-pushpin-line services__modal-icon"></i>
+                  <p>Nhiều món sushi đa dạng, hấp dẫn.</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="ri-pushpin-line services__modal-icon"></i>
+                  <p>Nguyên liệu đảm bảo sạch và tươi mới. .</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="ri-pushpin-line services__modal-icon"></i>
+                  <p>Hương vị mang đậm bản sắc xứ sở hoa anh đào.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--==========SERVICES 2==========-->
+        <div class="services__content">
+          <div>
+            <i class="ri-takeaway-line services__icon"></i>
+            <h3 class="services__title">
+              Dịch Vụ <br />
+              Giao Hàng
+            </h3>
+          </div>
+
+          <span class="button--flex button--small button--link services__button">
+            Xem thêm
+            <i class="ri-arrow-right-line button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">Dịch Vụ Giao Hàng</h4>
+              <i class="ri-close-line services__modal-close"></i>
+
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="ri-gift-line services__modal-icon"></i>
+                  <p>Giao hàng đến toàn thành phố Hồ Chí Minh.</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="ri-gift-line services__modal-icon"></i>
+                  <p>Nhanh chóng, cẩn thận, tiện lợi.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--==========SERVICES 3==========-->
+        <div class="services__content">
+          <div>
+            <i class="ri-restaurant-line services__icon"></i>
+            <h3 class="services__title">
+              Hài Lòng<br />
+              Khách Hàng
+            </h3>
+          </div>
+
+          <span class="button--flex button--small button--link services__button">
+            Xem thêm
+            <i class="ri-arrow-right-line button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">Hài Lòng Khách Hàng</h4>
+              <i class="ri-close-line services__modal-close"></i>
+
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="ri-nurse-line services__modal-icon"></i>
+                  <p>Đảm bảo sự hài lòng tuyệt đối của thực khách.</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="ri-nurse-line services__modal-icon"></i>
+                  <p>Chất lượng món ăn cao đi kèm với giá cả hợp lý.</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="ri-restaurant-2-line services__modal-icon"></i>
+                  <p>Hỗ trợ chăm sóc khách hàng chu đáo.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--==========SERVICES 4==========-->
+        <div class="services__content">
+          <div>
+            <i class="ri-vip-crown-2-line services__icon"></i>
+            <h3 class="services__title">
+              Ưu Đãi <br />
+              Thành Viên
+            </h3>
+          </div>
+
+          <span class="button--flex button--small button--link services__button">
+            Xem thêm
+            <i class="ri-arrow-right-line button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">Ưu Đãi Thành Viên</h4>
+              <i class="ri-close-line services__modal-close"></i>
+
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="ri-user-line services__modal-icon"></i>
+                  <p>Tận hưởng nhiều chương trình khuyến mãi.</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="ri-user-line services__modal-icon"></i>
+                  <p>Đăng ký thành viên dễ dàng, không mất phí.</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="ri-user-line services__modal-icon"></i>
+                  <p>Gắn bó lâu dài cùng Ukki.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========NEWSLETTER=========-->
+    <section class="newsletter section">
+      <div class="newsletter__container container">
+        <div class="newsletter__content grid">
+          <img src="assets/img/logo (3).png" style="margin-left: 50px;" alt="newsletter image"
+            class="newsletter__img" />
+
+          <div class="newsletter__data" style="margin-left: 30px;">
+            <span class="section__subtitle">Thông báo</span>
+            <h2 class="section__title">
+              Đăng ký thành viên<br />
+              ngay tại đây
+            </h2>
+
+            <form action="" class="newsletter__form">
+              <input type="email" placeholder="Nhập email" class="newsletter__input" />
+
+              <button class="button newsletter__button">
+                Đăngký<i class="ri-send-plane-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <img src="assets/img/spinach-leaf.png" alt="newsletter image" class="newsletter__spinach" />
+      </div>
+    </section>
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Blog</h2>
+      <span class="section__subtitle">Những bài viết thú vị dành cho bạn</span>
+
+      <div class="portfolio__container container swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- PORTFOLIO1 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/review-iki-sushi-1 (1).jpg" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">
+                Sushi – Kiệt tác nghệ thuật của ẩm thực Nhật Bản
+              </h3>
+              <p class="portfolio__description">
+                Nếu nói đến nét đẹp trong văn hóa Nhật Bản, chắc hẳn sushi -
+                món ăn nghệ thuật với vẻ ngoài đẹp mắt cùng quy trình làm tỉ
+                mỉ là một phần đóng góp không nhỏ trong nền văn hóa đặc sắc
+                ấy. Sushi muôn màu, muôn sắc, đa dạng về loại và còn được ví
+                như “quốc hồn quốc túy” của đất nước Mặt Trời Mọc.
+              </p>
+              <a href="https://pasgo.vn/blog/sushi-kiet-tac-nghe-thuat-cua-am-thuc-nhat-ban-3920" class="button">
+                Đọc tiếp <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+          <!-- PORTFOLIO2 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/sushi-restaurant2.png" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">
+                Review top 5 quán Sushi nổi tiếng ngon nhất ở Sài Gòn
+              </h3>
+              <p class="portfolio__description">
+                Sushi là món ăn khá phổ biến tại Nhật Bản. Nguyên liệu chính
+                tạo nên món sushi được làm từ rong biển, hải sản, rau củ, Mang
+                đến nhiều vitamin và các dưỡng chất thiết yếu cho con người. Ở
+                Sài Gòn có rất nhiều địa chỉ phục vụ món ăn này. Trong bài
+                viết dưới đây, Eatgo News sẽ gợi ý cho bạn đọc top 5 quán
+                sushi ngon nhất Sài Gòn. Đảm bảo bạn một lần bạn sẽ nhớ mãi
+                không quên.
+              </p>
+              <a href="https://vn.alongwalker.co/review-top-5-quan-sushi-noi-tieng-ngon-nhat-o-sai-gon-s202680.html"
+                class="button">
+                Đọc tiếp <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+          <!-- PORTFOLIO3 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/sushi-restaurant3.png" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">
+                Những Điều bạn chưa biết về Món Sushi
+              </h3>
+              <p class="portfolio__description">
+                Sushi là một món ăn truyền thống tại Nhật Bản chính độ tươi
+                sống của hải sản tạo nên một hương vị đặc biệt và có giá trị
+                dĩnh dưỡng cao. Món ăn này sẽ làm xiêu lòng những khách hàng
+                khó tính từ thị giác đến vị giác, từ cách trình bày vô cùng
+                tinh tế, thanh tao đến hương vị được cân bằng do không lạm
+                dụng nhiều gia vị mà giữ trọn vẹn sự tươi ngon đậm đà. Sushi
+                Nhật Bản có rất nhiều loại và cách gọi của chúng không hề đơn
+                giản như chúng ta nghĩ, người ta chia sushi làm 6 đến 8 loại
+                khác nhau.
+              </p>
+              <a href="https://kitetravel.vn/blog/sushi-nhat-ban-nhung-dieu-ban-chua-biet-ve-sushi" class="button">
+                Đọc tiếp <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+          <!-- PORTFOLIO4 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/sushi-restaurant4.png" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Giới thiệu về sushi ở Nhật Bản</h3>
+              <p class="portfolio__description">
+                Khi món ăn mang tính biểu tượng này được cả thế giới biết đến,
+                thì cũng là lúc nhiều quan niệm sai lầm về sushi xuất hiện. Ví
+                dụ, nhiều người nhầm tưởng rằng sushi chỉ có nghĩa là “cá
+                sống”. Thế nhưng, món ăn này không đơn giản chỉ đồng nghĩ với
+                cá sống. Sushi là sự kết hợp của chữ “su” và “meshi”. Trong
+                tiếng Việt, chúng có nghĩa là giấm và gạo. Sushi ý chỉ món cơm
+                ngọt nhẹ, nêm với giấm, còn gọi là shari, và được trang trí
+                với neta, tức hải sản, trứng hoặc rau củ, đã được nấu chín hay
+                để sống.
+              </p>
+              <a href="https://www.japan.travel/vi/guide/sushi-in-japan/" class="button">
+                Đọc tiếp <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOOTER -->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <div>
+        <a href="" class="footer__logo">
+          <img src="assets/img/logo (2).png" alt="logo image" />
+          Ukki
+        </a>
+
+        <p class="footer__description">
+          Chúng tôi phục vụ các món ăn Sushi <br />truyền thống và sáng tạo
+          của Nhật Bản. <br />Bầu không khí bình dị kết hợp với hiện đại góp
+          <br />phần đem đến trải nghiệm ăn uống thư giãn và thú vị.
+        </p>
+      </div>
+
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">Ukki</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Về Ukki</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer__link">Danh Mục</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer__link">Dịch Vụ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer__link">Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Chính Sách</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Giao Hàng</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer__link">Thanh Toán</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer__link">Kiểm Hàng & Đổi Trả</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer__link">Bảo Mật</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Thông tin</h3>
+
+          <ul class="footer__links">
+            <li class="footer__information">
+              534 Điện Biên Phủ <br />
+              Phường 21, Bình Thạnh
+              <br />
+              (+84)33351480
+            </li>
+
+            <li class="footer__information">09:00 - 11:00</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Mạng Xã Hội</h3>
+
+          <ul class="footer__social">
+            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+              <i class="ri-instagram-fill"></i>
+            </a>
+
+            <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+
+      <img src="assets/img/leaf-onion.png" alt="footer image" class="footer__onion" />
+      <img src="assets/img/spinach-leaf.png" alt="footer image" class="footer__spinach" />
+      <img src="assets/img/japanese-icon-sushi-3d-illustration.png" alt="footer image" class="footer__leaf" />
+    </div>
+
+    <div class="footer__info container">
+      <div class="footer__card">
+        <img srcset="assets/img/footer-card-1.png 6x" alt="footer image" />
+        <img srcset="assets/img/footer-card-2.1.png 16x" alt="footer image" />
+        <img srcset="assets/img/footer-card-3.1.png 9x" alt="footer image" />
+        <img srcset="assets/img/footer-card-4.png 5x" alt="footer image" />
+      </div>
+
+      <span class="footer__copy">
+        &#169; Copyright Bedimcode. All right reserved
+      </span>
+    </div>
+  </footer>
+
+  <!-- SCROLL UP -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      direction: "vertical",
+      slidesPerView: "auto",
+      freeMode: true,
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+      mousewheel: true,
+    });
+  </script>
+</body>
+
+</html>
